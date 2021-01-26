@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  color: black;
+  background-color: #f6f6f6;
+}
+
+.container{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  padding-left: -15px;
+  padding-right: -15px;
+}
+.header {
+  background-color: #ffffff;
+}
+.header__logo {
+  margin: 5px;
+}
+.header__row {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu__item a {
+  display: block;
+  margin: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.nav-menu__item a:hover{
+  color: #10c9c3;
+}
+
+.text__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text__header {
+  padding: 10px;
+}
+.text__header h1 {
+  font-size: 24px;
+  color: #171717;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.text__content {
+  width: 50%;
+  padding: 5px;
+}
+.text__content p {
+  font-size: 18px;
+  color: #787878;
+  font-weight: 400;
+  text-align: center;
+}
+
+.work__row {
+  flex-direction: column;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.work__item {
+  background-color: #dddddd;
+  position: relative;
+
+}
+
+.dark {
+  background-color: #838383;
+}
+
+.work__cover {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  
+  z-index: 10;
+  background-color:rgba(16, 201, 195, .5);
+}
+.work__item:hover .work__cover{
+  display:flex;
+}
+
+.footer {
+  background-color: #141414;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer__header {
+  color: #ffffff;
+  padding-top: 15px;
+}
+.text__header h3{
+  font-size: 18px;
+  
+}
+.footer__header p{
+  font-family: "Nunito Sans";
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: #bcbcbc;
+  padding-top: 10px;
+}
+.footer .row{
+  justify-content: space-between;
+}
+.footer a {
+  
+  font-family: "Nunito Sans";
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: #bcbcbc;
+  margin: 5px;
+
+}
+.footer a:hover{
+  color: #10c9c3;
+}
+.footer__nav{
+  flex-direction: column;
+  max-height: 85px;
+  flex-wrap: wrap;
+}
+.footer__nav li{
+  padding-top:5px;
+}
+
+.footer__contacts{
+  padding-top: 15px;
+}
+.footer__social{
+  flex-direction: column;
+}
+.footer__row {
+  flex-direction: column;
+}
+.invert{
+  background-color: #141414;
+  color: #ffffff;
+}
+.invert p{
+  color: #ffffff;
+}
+.invert h1{
+  color: #ffffff;
+}
+.banner {
+  padding: 30px;
+}
+
+.numbers {
+  background-color: #10c9c3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.numbers__row{
+  justify-content: space-between;
+  flex-direction: column;
+  clear: both;
+}
+.numbers-item{
+  margin: 5px;
+ 
+}
+.numbers-item__image{
+  float: left;
+}
+.numbers-item__contant {
+  margin-left: 70px;
+  padding-top: 3px;
+}
+.numbers-item__contant h4{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.numbers-item__contant p{
+  margin-top: 5px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.about-me__row{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-me__foto{
+  width: 90%;
+}
+.about-me__foto img{
+  width: 100%;
+}
+.about-me__content{
+  width: 90%;
+  padding-left: 15px;
+
+}
+.about-me h2{
+  font-size: 30px;
+  color: #171717;
+  font-weight: 500;
+  font-family: "Montserrat";
+
+}
+.about-me p{
+  font-size: 16px;
+  color: #787878;
+  margin-top: 15px;
+}
+.about-me__content img {
+  padding: 15px;
+}
+.need-project__container{
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+
+}
+.need-project h2{
+  font-size: 30px;
+  color: #171717;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.need-project p{
+  font-size: 16px;
+  color: #787878;
+  margin-top: 15px;
+
+}
+.need-project__button{
+  border: none;
+  background-color: #10c9c3;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 30px;
+  width: 180px;
+  height: 50px;
+}

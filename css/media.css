@@ -1,0 +1,104 @@
+/* tablet */
+@media (min-width: 768px) {
+  .container{
+    width: 740px;
+  }
+  .text {
+    padding: 50px;
+  }
+  .work__row {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* .work__item {
+    width: 50%;
+  } */
+  .banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .numbers {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+}
+
+/* laptop */
+@media (min-width: 992px) {
+  .container{
+    width: 900px;
+  }
+  .text {
+    padding: 105px;
+  }
+  .text__header h1 {
+    font-size: 38px;
+  }
+  
+  
+  .banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .numbers {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .numbers__row{
+    flex-direction: row;
+  }
+  .about-me__row{
+    flex-direction: row;
+  }
+  .about-me__foto{
+    width: 40%;
+  }
+  .about-me__content{
+    width: 40%;
+    padding-left: 50px;
+  }
+  .about-me p{
+    margin-top: 40px;
+  }
+  .need-project__container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer__row {
+    flex-direction: row;
+  }
+}
+
+/* desctop */
+@media (min-width: 1200px) {
+  .container{
+    width: 1170px;
+  }
+  .banner {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+  .numbers {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/* mobile only */
+@media (max-width: 767px) {
+  .footer{ 
+    padding: 0;
+  }
+  .about-me__content{
+    padding-top: 20px;
+  }
+  .footer___navigation {
+    padding-top: 15px;
+  }
+  .work__image img {
+    width: 320px;
+  }
+}
